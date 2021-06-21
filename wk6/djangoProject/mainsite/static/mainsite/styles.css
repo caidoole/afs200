@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 36px;
+}
+
+p{
+    color:indigo;
+}
+
+p:hover{
+    text-decoration: underline black;
+}
+
+.title{
+    color: blue;
+    font-size: 50px;
+}
+
+.title:hover{
+    font-size:36px;
+    color: red;
+}
