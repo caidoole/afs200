@@ -2,22 +2,32 @@ body{
     text-align: center;
     background-color: whitesmoke;
     font-size: 36px;
+    font-family: 'Indie Flower', cursive;
 }
 
-p{
-    color:indigo;
+button{
+    background-image: url('./buttonImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height:100px;
+    color:whitesmoke;
+    border-radius: 50px;
+}
+button:hover{
+    box-shadow: 15px 20px 25px grey;
 }
 
-p:hover{
-    text-decoration: underline black;
+input:hover{
+    box-shadow: 10px 12px 15px black;
 }
 
-.title{
-    color: blue;
-    font-size: 50px;
+a{
+    text-decoration: none;
 }
 
-.title:hover{
-    font-size:36px;
-    color: red;
+a:hover{
+
+    text-decoration: underline purple;
 }
